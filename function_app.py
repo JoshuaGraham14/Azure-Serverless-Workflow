@@ -50,7 +50,7 @@ def fetch_live_articles():
     articles = soup.find_all('a', href=lambda href: href and href.startswith('/news/articles'))
 
     article_links = set()
-    for article in articles[:1]: #retrieve the first 10 articles
+    for article in articles[:10]: #retrieve the first 10 articles
         href = article['href']
         full_url = f"https://www.bbc.com{href}" 
         article_links.add(full_url)
