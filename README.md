@@ -3,6 +3,8 @@
 ## Overview
 This project demonstrates a serverless architecture using Azure Functions to scrape BBC News articles, perform sentiment analysis, and store results in Azure Blob Storage. Additionally, it includes a scalability testing function for generating mock articles.
 
+A video demonstration of my video can be watched here: https://www.youtube.com/watch?v=8q8Pe3FfKrc
+
 ---
 
 ## Architecture
