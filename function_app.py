@@ -236,3 +236,4 @@ def GenerateFakeArticles(req: func.HttpRequest) -> func.HttpResponse:
     except Exception as e:
         logging.error(f"Error generating fake articles: {e}")
         return func.HttpResponse(f"An error occurred: {str(e)}", status_code=500)
+
